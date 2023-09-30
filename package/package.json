@@ -1,0 +1,30 @@
+{
+  "name": "spikeadmin",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.5.3"
+  },
+  "dependencies": {
+    "@mdi/font": "6.5.95",
+    "@tabler/icons": "2.10.0",
+    "apexcharts": "3.36.3",
+    "sass": "1.56.1",
+    "vue": "3.3.4",
+    "vue-style-loader": "4.1.3",
+    "vue-tabler-icons": "2.9.0",
+    "vue3-apexcharts": "1.4.1",
+    "vue3-perfect-scrollbar": "1.6.0",
+    "vuetify": "3.3.19",
+    "yup": "0.32.11"
+  },
+  "overrides": {
+    "nth-check": "2.1.1"
+  }
+}

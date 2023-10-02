@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { RouterView } from 'vue-router';
 const title = ref("spikeadmin Nuxt 3 - Vuetify 3 - vite - Typescript Based Free Dashboard");
 useHead({
   meta: [{ content: title }],
@@ -19,7 +18,7 @@ useHead({
             <v-main>
                 <v-container fluid class="page-wrapper bg-background px-sm-5 px-4 pt-12 rounded-xl">
                     <div class="maxWidth">
-                        <RouterView />
+                        <NuxtPage  />
                     </div>
                 </v-container>
             </v-main>

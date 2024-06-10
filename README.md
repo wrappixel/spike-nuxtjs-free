@@ -1,10 +1,10 @@
 
-# <a href="https://spike-vue-free.netlify.app/">Spike Vuetify Free</a>
-Spike VueJs Admin Dashboard
+# <a href="https://spike-nuxtjs-free.netlify.app/">Spike NuxtJs Free</a>
+Spike NuxtJs Admin Dashboard
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/templates/spike-free-vuejs-admin-template/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/10/spike-free-vuetify-vuejs-admin-template-wp.jpg" />
+<a target="_blank" href="https://www.wrappixel.com/templates/spike-free-nuxt-admin-dashboard/">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/10/spike-free-nuxt-js-admin-template-wp.jpg" />
 </a>
 
 
@@ -13,25 +13,25 @@ Spike VueJs Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>Spike Free VueJs Admin Version</th>
-<th>Spike VueJs Admin Version</th>
+<th>Spike Free NuxtJs Admin Version</th>
+<th>Spike NuxtJs Admin Version</th>
 </tr>
 </thead>
 <tbody>
 <tr>
   <td>
-    <a href="https://spike-vue-free.netlify.app/">Live Preview</a>
+    <a href="https://spike-nuxtjs-free.netlify.app/">Live Preview</a>
   </td>
   <td>
-  <a href="https://spike-vue-main.netlify.app/dashboard1">Live Preview</a>
+  <a href="https://spike-nuxtjs-pro-main.netlify.app/dashboards/dashboard1">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-      <a href="https://www.wrappixel.com/templates/spike-free-vuejs-admin-template/">Download Now</a>
+      <a href="https://www.wrappixel.com/templates/spike-free-nuxt-admin-dashboard/">Download Now</a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=33">Purchase Now</a>
+    <a href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=33">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -135,12 +135,12 @@ Spike VueJs Admin Dashboard
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=33">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-vuejs-admin-dashboard-prev-img.jpg" alt="">
+<a target="_blank" href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-nuxtjs-admin-dashboard-prev-img.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Spike Vue3 + Vuetify Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://spike-vue-main.netlify.app/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=33">Download</a>
+  <a href="https://spike-nuxtjs-pro-main.netlify.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=33">Download</a>
 </p>
 
 <!-- Versions of Template -->
@@ -148,17 +148,17 @@ Spike VueJs Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>Vue</th>
-<th>Angular</th>
 <th>Next Js</th>
+<th>Angular</th>
+<th>Vue Js</th>
 <th>Bootstrap</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=33" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-vuejs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=33" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-nuxtjs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
@@ -167,8 +167,8 @@ Spike VueJs Admin Dashboard
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=33" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-nextjs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-vuejs-admin-dashboard-prev-img.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>

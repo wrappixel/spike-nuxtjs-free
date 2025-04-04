@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
+import Topbar from "~/components/Layout/Topbar.vue";
 const title = ref("spikeadmin Nuxt 3 - Vuetify 3 - vite - Typescript Based Free Dashboard");
 useHead({
   meta: [{ content: title }],
@@ -13,9 +14,11 @@ useHead({
 
 <template>
     <v-locale-provider >
+        <Topbar/>
         <v-app>
-            <LayoutMain/>
+     
             <v-main>
+                <LayoutMain/>
                 <v-container fluid class="page-wrapper bg-background px-sm-5 px-4 pt-12 rounded-xl">
                     <div class="maxWidth">
                         <NuxtPage  />

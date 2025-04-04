@@ -36,7 +36,7 @@ import { UserIcon, MailIcon, ListCheckIcon } from 'vue-tabler-icons';
                 </v-list-item>
             </v-list>
             <div class="pt-4 pb-4 px-5 text-center">
-                <v-btn to="" color="primary" variant="outlined" class="rounded-pill" block>Logout</v-btn>
+                <v-btn to="/auth/login" color="primary" variant="outlined" class="rounded-pill" block>Logout</v-btn>
             </div>
         </v-sheet>
     </v-menu>

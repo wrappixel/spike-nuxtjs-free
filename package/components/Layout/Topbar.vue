@@ -25,6 +25,10 @@ const items = [
 
 const preview_link = [
   {
+    title: "Nuxtjs Preview",
+    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos",
+  },
+  {
     title: "Bootstrap Preview",
     url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#demos",
   },
@@ -41,16 +45,16 @@ const preview_link = [
     url: "https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#demos",
   },
   {
-    title: "Nuxtjs Preview",
-    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos",
-  },
-  {
     title: "Tailwind Preview",
     url: "https://www.wrappixel.com/templates/spike-tailwind-admin-template/?ref=376#demos",
   },
 ];
 
 const buy_link = [
+  {
+    title: "Buy Nuxtjs Version",
+    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#package-card",
+  },
   {
     title: "Buy Bootstrap Version",
     url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#package-card",
@@ -67,10 +71,6 @@ const buy_link = [
   {
     title: "Buy Nextjs Version",
     url: "https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#package-card",
-  },
-  {
-    title: "Buy Nuxtjs Version",
-    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#package-card",
   },
   {
     title: "Buy Tailwind Version",

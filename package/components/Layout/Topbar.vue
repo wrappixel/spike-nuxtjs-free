@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Icon } from "@iconify/vue";
 import {
   BriefcaseIcon,
   ChevronDownIcon,
@@ -9,16 +10,27 @@ import {
   WindowMaximizeIcon,
 } from "vue-tabler-icons";
 
+import icon1 from "/images/technology/vue-cat-icon.svg";
+import icon2 from "/images/technology/angular-cat-icon.svg";
+import icon3 from "/images/technology/next-cat-icon.svg";
+import icon4 from "/images/technology/tailwind-icon.svg";
+import icon5 from "/images/technology/nuxt-cat-icon.svg";
+import icon6 from "/images/technology/bt-cat-icon.svg";
+
 const items = [
   {
-    text: "Support",
-    icon: LifebuoyIcon,
+    text: "Templates",
+    icon: "window-frame-linear",
+    url: "https://www.wrappixel.com/templates/category/vuejs-templates/",
+  },
+  {
+    text: "Help",
+    icon: "question-circle-linear",
     url: "https://support.wrappixel.com/",
   },
-  { text: "Templates", icon: GiftIcon, url: "https://www.wrappixel.com/" },
   {
     text: "Hire Us",
-    icon: BriefcaseIcon,
+    icon: "case-round-linear",
     url: "https://www.wrappixel.com/hire-us/",
   },
 ];
@@ -26,55 +38,33 @@ const items = [
 const preview_link = [
   {
     title: "Nuxtjs Preview",
+    img: icon5,
     url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos",
   },
   {
-    title: "Bootstrap Preview",
-    url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#demos",
-  },
-  {
     title: "Angular Preview",
+    img: icon2,
     url: "https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=376#demos",
   },
   {
-    title: "Vuejs Preview",
-    url: "https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#demos",
-  },
-  {
     title: "Nextjs Preview",
+    img: icon3,
     url: "https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#demos",
   },
   {
+    title: "Vuejs Preview",
+    img: icon1,
+    url: "https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#demos",
+  },
+  {
     title: "Tailwind Preview",
+    img: icon4,
     url: "https://www.wrappixel.com/templates/spike-tailwind-admin-template/?ref=376#demos",
   },
-];
-
-const buy_link = [
   {
-    title: "Buy Nuxtjs Version",
-    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#package-card",
-  },
-  {
-    title: "Buy Bootstrap Version",
-    url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#package-card",
-  },
-  {
-    title: "Buy Angular Version",
-    url: "https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=376#package-card",
-  },
-  {
-    title: "Buy Vuejs Version",
-    url: "https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#package-card",
-  },
-
-  {
-    title: "Buy Nextjs Version",
-    url: "https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#package-card",
-  },
-  {
-    title: "Buy Tailwind Version",
-    url: "https://www.wrappixel.com/templates/spike-tailwind-admin-template/?ref=376#package-card",
+    title: "Bootstrap Preview",
+    img: icon6,
+    url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#demos",
   },
 ];
 </script>
@@ -85,41 +75,44 @@ const buy_link = [
     >
       <div class="d-flex align-center ga-10">
         <a href="https://www.wrappixel.com/" target="_blank">
-          <img src="/images/logos/logo-wrappixel.svg"
+          <img src="/images/logos/logo-wrappixel.svg" width="148"
         /></a>
-        <div class="d-lg-flex d-none items-center ga-3 topbar-links">
-          <v-btn
+        <div
+          class="d-lg-flex d-none items-center ga-4 topbar-links border-s border-opacity-25 ps-6"
+        >
+          <a
             v-for="(item, index) in items"
             :key="index"
-            class="d-flex items-center"
+            class="d-flex items-center p-0 ga-2 lh-normal"
             variant="text"
             :href="item.url"
             target="_blank"
-            rounded="pill"
           >
-            <component :is="item.icon" size="20" />
-            <span class="ps-1">{{ item.text }}</span>
-          </v-btn>
+            <Icon :icon="'solar:' + item.icon" height="20" width="20" />
+            {{ item.text }}
+          </a>
         </div>
       </div>
       <div class="d-flex flex-md-row flex-column align-center ga-4">
-        <h5 class="text-h5 text-background">Check Spike Premium Version</h5>
-        <div class="d-flex ga-md-4 ga-2">
+        <h5
+          class="text-subtitle-1 font-weight-bold text-linear-gradient text-uppercase"
+        >
+          Checkout Pro Version
+        </h5>
+        <div class="d-flex flex-md-row flex-wrap justify-md-end justify-center ga-3">
           <v-menu>
             <template v-slot:activator="{ props }">
               <v-btn
                 variant="outlined"
-                rounded="pill"
-                color="primary"
+                class="border-blue text-surface text-h6 font-weight-medium "
                 v-bind="props"
               >
                 <span class="d-flex ga-2">
-                  <DeviceLaptopIcon size="20" /> Live Preview
-                  <ChevronDownIcon size="20" />
+                  Live Preview <ChevronDownIcon size="20" />
                 </span>
               </v-btn>
             </template>
-            <v-list density="compact" elevation="10">
+            <v-list density="compact" elevation="10" class="pa-3">
               <v-list-item
                 v-for="(item, index) in preview_link"
                 :key="index"
@@ -128,40 +121,34 @@ const buy_link = [
                 target="_blank"
               >
                 <v-list-item-title
-                  class="d-flex align-center ga-2 text-subtitle-1"
+                  class="d-flex align-center gap-3 text-h6 font-weight-regular "
                 >
-                  <WindowMaximizeIcon size="18" />
+                  <img :src="item.img" width="18" :alt="item.img" />
                   {{ item.title }}</v-list-item-title
                 >
               </v-list-item>
             </v-list>
           </v-menu>
-          <v-menu>
-            <template v-slot:activator="{ props }">
-              <v-btn color="primary" v-bind="props" rounded="pill">
-                <span class="d-flex ga-2">
-                  <ShoppingCartIcon size="20" /> Buy Now
-                  <ChevronDownIcon size="20" />
-                </span>
-              </v-btn>
-            </template>
-            <v-list density="compact" elevation="10">
-              <v-list-item
-                v-for="(item, index) in buy_link"
-                :key="index"
-                :value="index"
-                :href="item.url"
-                target="_blank"
-              >
-                <v-list-item-title
-                  class="d-flex align-center ga-2 text-subtitle-1"
-                >
-                  <WindowMaximizeIcon size="18" />
-                  {{ item.title }}</v-list-item-title
-                >
-              </v-list-item>
-            </v-list>
-          </v-menu>
+          <v-btn
+            class="purple-btn text-surface text-h6 font-weight-medium"
+            href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
+            target="_blank"
+          >
+            <span class="d-flex ga-2">
+              <Icon icon="solar:crown-linear" height="18" width="18" /> Get
+              Pro</span
+            >
+          </v-btn>
+          <v-btn
+            class="green-btn text-h6 font-weight-medium"
+            href="http://wrappixel.com/all-access-pass/?ref=376"
+            target="_blank"
+          >
+            <span class="d-flex ga-2">
+              <Icon icon="solar:bolt-linear" height="18" width="18" /> All
+              Access Pass</span
+            >
+          </v-btn>
         </div>
       </div>
     </div>

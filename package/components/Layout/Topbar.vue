@@ -21,7 +21,7 @@ const items = [
   {
     text: "Templates",
     icon: "window-frame-linear",
-    url: "https://www.wrappixel.com/templates/category/vuejs-templates/",
+    url: "https://www.wrappixel.com/templates/category/nuxt-templates/",
   },
   {
     text: "Help",

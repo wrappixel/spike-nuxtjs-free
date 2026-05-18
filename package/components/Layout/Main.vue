@@ -33,7 +33,12 @@ const sDrawer = ref(true);
             :key="item.title"
           />
           <!---If Has Child -->
-          <LayoutFullVerticalSidebarNavCollapse class="leftPadding" :item="item" :level="0" v-else-if="item.children" />
+          <LayoutFullVerticalSidebarNavCollapse
+            class="leftPadding"
+            :item="item"
+            :level="0"
+            v-else-if="item.children"
+          />
           <!---Single Item-->
           <LayoutFullVerticalSidebarNavItem
             :item="item"
@@ -55,7 +60,7 @@ const sDrawer = ref(true);
               <h6 class="text-h6 text-10 mb-3">Check Pro Version</h6>
               <v-btn
                 target="_blank"
-                href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
+                href="https://wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
                 color="primary"
                 class="px-5"
                 rounded="pill"
@@ -97,7 +102,7 @@ const sDrawer = ref(true);
             <!-- Upgrade button -->
             <v-btn
               class="mr-2 bg-primary rounded-pill"
-              href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
+              href="https://wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
               target="_blank"
               >Check Pro Version</v-btn
             >

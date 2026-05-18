@@ -21,7 +21,7 @@ const items = [
   {
     text: "Templates",
     icon: "window-frame-linear",
-    url: "https://www.wrappixel.com/templates/category/nuxt-templates/",
+    url: "https://wrappixel.com/templates/category/nuxt-templates/",
   },
   {
     text: "Help",
@@ -31,7 +31,7 @@ const items = [
   {
     text: "Hire Us",
     icon: "case-round-linear",
-    url: "https://www.wrappixel.com/hire-us/",
+    url: "https://wrappixel.com/hire-us/",
   },
 ];
 
@@ -39,32 +39,32 @@ const preview_link = [
   {
     title: "Nuxtjs Preview",
     img: icon5,
-    url: "https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos",
   },
   {
     title: "Angular Preview",
     img: icon2,
-    url: "https://www.wrappixel.com/templates/spike-angular-admin-template/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-angular-admin-template/?ref=376#demos",
   },
   {
     title: "Nextjs Preview",
     img: icon3,
-    url: "https://www.wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-nextjs-admin-template/?ref=376#demos",
   },
   {
     title: "Vuejs Preview",
     img: icon1,
-    url: "https://www.wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-vuejs-admin-dashboard/?ref=376#demos",
   },
   {
     title: "Tailwind Preview",
     img: icon4,
-    url: "https://www.wrappixel.com/templates/spike-tailwind-admin-template/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-tailwind-admin-template/?ref=376#demos",
   },
   {
     title: "Bootstrap Preview",
     img: icon6,
-    url: "https://www.wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#demos",
+    url: "https://wrappixel.com/templates/spike-bootstrap-admin-dashboard/?ref=376#demos",
   },
 ];
 </script>
@@ -74,7 +74,7 @@ const preview_link = [
       class="d-flex flex-lg-row flex-column gap-3 justify-space-between align-center"
     >
       <div class="d-flex align-center ga-10">
-        <a href="https://www.wrappixel.com/" target="_blank">
+        <a href="https://wrappixel.com/" target="_blank">
           <img src="/images/logos/logo-wrappixel.svg" width="148"
         /></a>
         <div
@@ -99,12 +99,14 @@ const preview_link = [
         >
           Checkout Pro Version
         </h5>
-        <div class="d-flex flex-md-row flex-wrap justify-md-end justify-center ga-3">
+        <div
+          class="d-flex flex-md-row flex-wrap justify-md-end justify-center ga-3"
+        >
           <v-menu>
             <template v-slot:activator="{ props }">
               <v-btn
                 variant="outlined"
-                class="border-blue text-surface text-h6 font-weight-medium "
+                class="border-blue text-surface text-h6 font-weight-medium"
                 v-bind="props"
               >
                 <span class="d-flex ga-2">
@@ -121,7 +123,7 @@ const preview_link = [
                 target="_blank"
               >
                 <v-list-item-title
-                  class="d-flex align-center gap-3 text-h6 font-weight-regular "
+                  class="d-flex align-center gap-3 text-h6 font-weight-regular"
                 >
                   <img :src="item.img" width="18" :alt="item.img" />
                   {{ item.title }}</v-list-item-title
@@ -131,7 +133,7 @@ const preview_link = [
           </v-menu>
           <v-btn
             class="purple-btn text-surface text-h6 font-weight-medium"
-            href="https://www.wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
+            href="https://wrappixel.com/templates/spike-nuxtjs-admin-template/?ref=376#demos"
             target="_blank"
           >
             <span class="d-flex ga-2">
